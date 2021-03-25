@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize-css.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Table</title>
+</head>
+<body>
+
+    <div id="root" class="root">
+        <table id="table" class="table">
+            <thead class="table-head" id="table-head">
+                <tr id="table-head_tr">
+                    <th draggable="true" class="thead-th drop thead-fixed1">#</th>
+                    <th draggable="true" class="thead-th thead-fixed2 drop">Название</th>
+                    <th draggable="true" class="thead-th thead-fixed3 drop">Цена</th>
+                    <th draggable="true" class="thead-th drop">часы</th>
+                    <th draggable="true" class="thead-th drop">Что</th>
+                    <th draggable="true" class="thead-th drop">Название</th>
+                    <th draggable="true" class="thead-th drop">Цена</th>
+                    <th draggable="true" class="thead-th drop">автор</th>
+                    <th draggable="true" class="thead-th drop">дни</th>
+                    <th draggable="true" class="thead-th drop">Название</th>
+                    <th draggable="true" class="thead-th drop">Цена</th>
+                    <th draggable="true" class="thead-th drop">часы</th>
+                    <th draggable="true" class="thead-th drop">Что</th>
+                    <th draggable="true" class="thead-th drop">Название</th>
+                    <th draggable="true" class="thead-th drop">Цена</th>
+                    <th draggable="true" class="thead-th drop">автор</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class='table-filters'>
+                    <td class="filter1 drop" id="filter1" draggable="true"><input placeholder="filter..." type="text" class="input-filter"/></td>
+                    <td class="filter2 drop" draggable="true"><input placeholder="filter..." type="text"/></td>
+                    <td class="filter3 drop" draggable="true"><input placeholder="filter..." type="text"/></td>
+                    <td class="drop" draggable="true"><input placeholder="filter..." type="text"/></td>
+                    <td class="drop" draggable="true"><input placeholder="filter..." type="text"/></td>
+                    <td class="drop" draggable="true"><input placeholder="filter..." type="text"/></td>
+                    <td class="drop" draggable="true"><input placeholder="filter..." type="text"/></td>
+                    <td class="drop" draggable="true"><input placeholder="filter..." type="text"/></td>
+                    <td class="drop" draggable="true"><input placeholder="filter..." type="text"/></td>
+                    <td class="drop" draggable="true"><input placeholder="filter..." type="text"/></td>
+                    <td class="drop" draggable="true"><input placeholder="filter..." type="text"/></td>
+                    <td class="drop" draggable="true"><input placeholder="filter..." type="text"/></td>
+                    <td class="drop" draggable="true"><input placeholder="filter..." type="text"/></td>
+                    <td class="drop" draggable="true"><input placeholder="filter..." type="text"/></td>
+                    <td class="drop" draggable="true"><input placeholder="filter..." type="text"/></td>
+                    <td class="drop" draggable="true"><input placeholder="filter..." type="text"/></td>
+                </tr>
+            </tbody>
+        <tbody id="tbody" >
+
+        </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="tablesort.js"></script>
+    <script src="tablesort.numbers.js"></script>
+    <script src="tablesort.dollar.js"></script>
+    <script src="tablesort.ruble.js"></script>
+    <script src="DragDropTouch.js"></script>
+    <script src="tableDrop.js"></script>
+    <script src="tableDragger.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
