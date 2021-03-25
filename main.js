@@ -36,9 +36,9 @@ const createTr = () => {
             document.getElementById('tbody').innerHTML += 
         `
             <tr class="table-data" id="table-data">
-                <td draggable="true" id="item" class="table-data_item1 drop">${i}</td>
-                <td draggable="true" id="" class="table-data_item2 drop">${item[2] + randomWords}</td>
-                <td draggable="true" id="price" class="table-data_item3 drop">₽${item[3] + i}</td>
+                <td id="item" class="table-data_item1 drop">${i}</td>
+                <td id="" class="table-data_item2 drop">${item[2] + randomWords}</td>
+                <td id="price" class="table-data_item3 drop">₽${item[3] + i}</td>
                 <td id="">${item[4] + i}</td>
                 <td id="">${item[5] + randomWords}</td>
                 <td id="">${item[6] + randomWords}</td>
